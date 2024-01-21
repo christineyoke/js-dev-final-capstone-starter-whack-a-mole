@@ -102,8 +102,8 @@ function gameOver() {
     return showUp();
   } else {
     stopGame();
-    // Displya "Game Over" message
-    document.getElementById('title').textContent = "Game Over";
+    // Display "End of Game" message
+    document.getElementById('title').textContent = "End of Game";
     return "game stopped";
   }  
 }
@@ -258,7 +258,7 @@ function setDuration(duration) {
 
 /**
 *
-* This function is called when the game is stopped. It clears the
+* This function is called when the game is stopped. It clears the 
 * timer using clearInterval. Returns "game stopped".
 *
 */
@@ -270,8 +270,7 @@ function stopGame(){
 
 /**
 *
-* This is the function that starts the game when the `startButton`
-* is clicked.
+* This is the function that starts the game when the `startButton` * is clicked.
 *
 */
 function startGame(){
@@ -282,7 +281,7 @@ function startGame(){
   setEventListeners();
   startTimer();
   showUp();
-  //Reset the game status
+  // Reset the game status
   document.getElementById('title').textContent = "Whack-a-Mole!";
   return "game started";
 }
