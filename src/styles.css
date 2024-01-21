@@ -28,7 +28,24 @@ h2 {
 #start {
     text-align: center;
     font-size: 30px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
+
+
+#start:hover {
+  background-color: #45a049;
+
+
+
+
+
 
 #timer{
     color: white;
