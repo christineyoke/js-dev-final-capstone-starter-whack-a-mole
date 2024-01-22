@@ -102,8 +102,6 @@ function gameOver() {
     return showUp();
   } else {
     stopGame();
-    // Display "End of Game" message
-    document.getElementById('title').textContent = "End of Game";
     return "game stopped";
   }  
 }
@@ -281,8 +279,6 @@ function startGame(){
   setEventListeners();
   startTimer();
   showUp();
-  // Reset the game status
-  document.getElementById('title').textContent = "Whack-a-Mole!";
   return "game started";
 }
 
