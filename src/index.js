@@ -227,6 +227,11 @@ function whack(event) {
   // TODO: Write your code here.
   // call updateScore()
   updateScore();
+  // Play hit sound
+  const hitSound = document.getElementById('hitSound');
+  hitSound.volume = 0.2;
+  hitSound.play()
+
   return points;
 }
 
